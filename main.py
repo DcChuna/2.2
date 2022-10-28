@@ -6,3 +6,18 @@ class Student:
         self.gradebook = [22, 12, 11, 11, 22]
         self.sum_gradebook = sum(self.gradebook) / len(self.gradebook)
 
+class Diploma:
+    def __init__(self):
+        self.nothing = "воно потрібно для того щоби бути"
+    def diploma(self):
+        if self.sum_gradebook > 5 and 10> self.sum_gradebook:
+            print("Im stronger,Im smarter, Im better, Im better")
+        if self.sum_gradebook < 5:
+            print("Im loser.")
+        if self.sum_gradebook > 10 :
+            print("I am not a king . I am a not god. I am ... worse")
+
+
+    def method(self):
+        print("about Aspirant")
+
