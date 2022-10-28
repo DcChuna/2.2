@@ -21,3 +21,14 @@ class Diploma:
     def method(self):
         print("about Aspirant")
 
+class Aspirant(Student, Diploma):
+    def pr(self):
+        self.method()
+        print(f"{self.name} {self.surname}")
+        print(f"age = {self.age}")
+        print(f"marks = {self.gradebook}")
+        print(f"marks = {self.sum_gradebook}")
+        self.diploma()
+
+Aspirant1 = Aspirant()
+Aspirant1.pr()
